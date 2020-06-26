@@ -1,0 +1,3 @@
+/home/pkchen/Desktop/try/CMakeFiles/rebuild_cache.dir
+/home/pkchen/Desktop/try/CMakeFiles/ez.dir
+/home/pkchen/Desktop/try/CMakeFiles/edit_cache.dir

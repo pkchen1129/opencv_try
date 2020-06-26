@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project(ez)
+find_package(OpenCV REQUIRED)
+add_executable(ez ez.cpp)
+target_link_libraries(ez ${OpenCV_LIBS})

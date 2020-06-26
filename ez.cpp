@@ -1,5 +1,5 @@
 #include <iostream>
-#include <opencv/cv.h>
+// #include <opencv/cv.h>
 #include <opencv2/opencv.hpp>
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
@@ -12,11 +12,11 @@ using namespace cv;
 int main(){
 	vector<int> params;
 	// params.push_back(CV_IMWRITE_PNG_COMPRESSION);
-	params.push_back(5);
+	// params.push_back(5);
 	cout << "try" << endl;
-	Mat im = imread("lena.jpg");
-	// imshow("lena", im);
-	// imwrite("hi.png", im, params);
+	Mat im = imread("../lena.jpg");
+	imshow("lena", im);
+	imwrite("../hi.png", im);
 	waitKey(0);
 	return 0;
 }
